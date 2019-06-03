@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: black;
+}
+header{
+    font-size: 30px;
+    color: red;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    border: solid black; 
+    
+    background-color: black;  
+    padding: 1ex; 
+    transition: 2s;
+
+
+}
+header:hover{
+    padding: 0.5px;
+    text-shadow: 1px 1px 20px;
+    
+    transition: 2s;
+}
+#p{
+    color: red;
+    border: solid red;
+    padding: 2ex;
+    
+    font-size: 20px;
+   
+}
+img{
+    width:100%;
+}
+#img{
+    float: left;
+    width: 50%;
+    
+}
